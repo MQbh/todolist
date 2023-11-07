@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet">
+  <title>Document</title>
+  <link rel="stylesheet" href="todolist.css">
+</head>
+<body>
+  <header>
+    <div class="today-div"></div>
+    <div class="hae25a">
+    <div><input class="js-input" type="text" placeholder="e.g Buy groceries" autofocus></div>
+    <div><button class="add-button js-add-buton">Add Todo</button></div>
+    </div>
+    
+  </header>
+   <main>
+     <select name="todo" class="filter-todo">
+       <option value="All">All</option>
+       <option value="completed">completed</option>
+       <option value="remaining">Remaining</option>
+     </select>
+     <div class="todolist-container"></div>
+     <div class="last-div">Developed and Designed by <span class="myname"><a href="">MehdiQbach.</a></span></div>
+   </main>
+ <script type="module" src="todolist.js"></script>
+</body>
+</html>
