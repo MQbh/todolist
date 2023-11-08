@@ -115,6 +115,12 @@ select {
   transition: all 0.5s;
 }
 
+@media(max-width:500px){
+  .todolist-container div {
+    width: 280px;
+  }
+}
+
 .todolist-container button {
   height: 30px;
   width: 30px;
