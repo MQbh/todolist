@@ -157,7 +157,7 @@ img {
   transition: all 0.5s;
 }
 
-.todolist-container.check::before {
+.todolist-container .check::before {
   content: "🗸";
   color: white;
   background-color: rgb(4, 54, 74);
