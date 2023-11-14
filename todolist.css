@@ -158,7 +158,7 @@ img {
 }
 
 .todolist-container .check::before {
-  content: "🗸";
+  content: url('icons8-coche-20.png');
   color: white;
   background-color: rgb(4, 54, 74);
   border: 1px solid rgb(4, 54, 74);
